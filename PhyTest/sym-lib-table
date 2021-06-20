@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PhyTest)(type Legacy)(uri ${KIPRJMOD}/PhyTest.lib)(options "")(descr ""))
+)
