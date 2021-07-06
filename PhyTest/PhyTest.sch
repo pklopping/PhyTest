@@ -14,28 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C_Small C?
-U 1 1 60CFCDE2
-P 8650 5000
-F 0 "C?" V 8421 5000 50  0000 C CNN
-F 1 "C_Small" V 8512 5000 50  0000 C CNN
-F 2 "" H 8650 5000 50  0001 C CNN
-F 3 "~" H 8650 5000 50  0001 C CNN
-	1    8650 5000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60CFE3AC
-P 8650 4600
-F 0 "C?" V 8421 4600 50  0000 C CNN
-F 1 "C_Small" V 8512 4600 50  0000 C CNN
-F 2 "" H 8650 4600 50  0001 C CNN
-F 3 "~" H 8650 4600 50  0001 C CNN
-	1    8650 4600
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 60CFF009
 P 9600 5050
@@ -105,56 +83,12 @@ Wire Wire Line
 	9450 2300 9450 2400
 $Comp
 L Device:C_Small C?
-U 1 1 60D143A1
-P 10700 2300
-F 0 "C?" V 10471 2300 50  0000 C CNN
-F 1 "0.1µF" V 10562 2300 50  0000 C CNN
-F 2 "" H 10700 2300 50  0001 C CNN
-F 3 "~" H 10700 2300 50  0001 C CNN
-	1    10700 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60D157B5
-P 10700 1950
-F 0 "C?" V 10471 1950 50  0000 C CNN
-F 1 "0.1µF" V 10562 1950 50  0000 C CNN
-F 2 "" H 10700 1950 50  0001 C CNN
-F 3 "~" H 10700 1950 50  0001 C CNN
-	1    10700 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60D15C17
-P 10700 1600
-F 0 "C?" V 10471 1600 50  0000 C CNN
-F 1 "0.1µF" V 10562 1600 50  0000 C CNN
-F 2 "" H 10700 1600 50  0001 C CNN
-F 3 "~" H 10700 1600 50  0001 C CNN
-	1    10700 1600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60D15F73
-P 10700 1250
-F 0 "C?" V 10471 1250 50  0000 C CNN
-F 1 "0.1µF" V 10562 1250 50  0000 C CNN
-F 2 "" H 10700 1250 50  0001 C CNN
-F 3 "~" H 10700 1250 50  0001 C CNN
-	1    10700 1250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 60D16391
 P 10700 900
 F 0 "C?" V 10471 900 50  0000 C CNN
 F 1 "0.1µF" V 10562 900 50  0000 C CNN
-F 2 "" H 10700 900 50  0001 C CNN
-F 3 "~" H 10700 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10700 900 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0805Y104JXATW1BC?qs=eqggToSOtyqq4F0F9IzSgw%3D%3D" H 10700 900 50  0001 C CNN
 	1    10700 900 
 	0    1    1    0   
 $EndComp
@@ -214,18 +148,18 @@ $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 60D20CF9
-P 10450 1500
-F 0 "#PWR?" H 10450 1350 50  0001 C CNN
-F 1 "+3V3" H 10465 1673 50  0000 C CNN
-F 2 "" H 10450 1500 50  0001 C CNN
-F 3 "" H 10450 1500 50  0001 C CNN
-	1    10450 1500
+P 10400 1500
+F 0 "#PWR?" H 10400 1350 50  0001 C CNN
+F 1 "+3V3" H 10415 1673 50  0000 C CNN
+F 2 "" H 10400 1500 50  0001 C CNN
+F 3 "" H 10400 1500 50  0001 C CNN
+	1    10400 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10450 1500 10450 1600
+	10400 1500 10400 1600
 Wire Wire Line
-	10450 1600 10550 1600
+	10400 1600 10550 1600
 Wire Wire Line
 	10850 1600 10950 1600
 Wire Wire Line
@@ -335,8 +269,8 @@ U 1 1 60E8E54A
 P 9900 4700
 F 0 "C?" H 9992 4746 50  0000 L CNN
 F 1 "1000pF" H 9992 4655 50  0000 L CNN
-F 2 "" H 9900 4700 50  0001 C CNN
-F 3 "~" H 9900 4700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9900 4700 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y102MXFAT4X?qs=GXuM9q1TrDnXNqTpn683gQ%3D%3D" H 9900 4700 50  0001 C CNN
 F 4 "2 kV" H 9900 4700 50  0001 C CNN "Voltage"
 	1    9900 4700
 	1    0    0    -1  
@@ -453,21 +387,10 @@ U 1 1 60F25119
 P 9800 1350
 F 0 "C?" H 9888 1396 50  0000 L CNN
 F 1 "2.2µF" H 9888 1305 50  0000 L CNN
-F 2 "" H 9800 1350 50  0001 C CNN
-F 3 "~" H 9800 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_Elec_10x10.2" H 9800 1350 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-BC-Components/MAL219299601E3?qs=vHuUswq2%252BswBB0wBXPSX%2Fw%3D%3D" H 9800 1350 50  0001 C CNN
 	1    9800 1350
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60F2B604
-P 9100 1350
-F 0 "C?" H 9008 1304 50  0000 R CNN
-F 1 "0.1µF" H 9008 1395 50  0000 R CNN
-F 2 "" H 9100 1350 50  0001 C CNN
-F 3 "~" H 9100 1350 50  0001 C CNN
-	1    9100 1350
-	1    0    0    1   
 $EndComp
 Wire Wire Line
 	9800 1150 9800 1200
@@ -1162,8 +1085,8 @@ U 1 1 60EEAD23
 P 5600 3150
 F 0 "R?" H 5541 3104 50  0000 R CNN
 F 1 "100kΩ" H 5541 3195 50  0000 R CNN
-F 2 "" H 5600 3150 50  0001 C CNN
-F 3 "~" H 5600 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5600 3150 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805100KJNEAC?qs=E3Y5ESvWgWMMFQOyHSPe4Q%3D%3D" H 5600 3150 50  0001 C CNN
 	1    5600 3150
 	-1   0    0    1   
 $EndComp
@@ -1211,28 +1134,6 @@ F 5 "1/12W" V 8600 3100 50  0001 C CNN "Wattage"
 	0    1    1    0   
 $EndComp
 Connection ~ 8400 3850
-$Comp
-L Device:C_Small C?
-U 1 1 60DBF530
-P 8600 3400
-F 0 "C?" V 8371 3400 50  0000 C CNN
-F 1 "0.01µF" V 8462 3400 50  0000 C CNN
-F 2 "" H 8600 3400 50  0001 C CNN
-F 3 "~" H 8600 3400 50  0001 C CNN
-	1    8600 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60DBE31D
-P 8600 3850
-F 0 "C?" V 8371 3850 50  0000 C CNN
-F 1 "0.01µF" V 8462 3850 50  0000 C CNN
-F 2 "" H 8600 3850 50  0001 C CNN
-F 3 "~" H 8600 3850 50  0001 C CNN
-	1    8600 3850
-	0    1    1    0   
-$EndComp
 Connection ~ 8000 3500
 Connection ~ 8000 4150
 Wire Wire Line
@@ -1395,8 +1296,8 @@ U 1 1 60CFEAA2
 P 8350 4800
 F 0 "Y?" V 8304 4931 50  0000 L CNN
 F 1 "Crystal" V 8395 4931 50  0000 L CNN
-F 2 "" H 8350 4800 50  0001 C CNN
-F 3 "~" H 8350 4800 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD" H 8350 4800 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/IQD/LFXTAL032808Reel?qs=GJ%2F2ZGcr5uNxhF%252BFsW%252BcOQ%3D%3D" H 8350 4800 50  0001 C CNN
 	1    8350 4800
 	0    -1   1    0   
 $EndComp
@@ -1423,8 +1324,8 @@ U 1 1 60CFB72B
 P 7700 5700
 F 0 "C?" H 7792 5746 50  0000 L CNN
 F 1 "10µF" H 7792 5655 50  0000 L CNN
-F 2 "" H 7700 5700 50  0001 C CNN
-F 3 "~" H 7700 5700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7700 5700 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Polytech/T55P106M6R3C0200?qs=sGAEpiMZZMsh%252B1woXyUXj6desgLw3NmEwrK7EYyDGdI%3D" H 7700 5700 50  0001 C CNN
 	1    7700 5700
 	1    0    0    -1  
 $EndComp
@@ -1490,8 +1391,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 3400 9250 3400
 Wire Wire Line
-	8000 3500 9250 3500
-Wire Wire Line
 	8000 3550 8800 3550
 Wire Wire Line
 	8000 4150 8900 4150
@@ -1516,5 +1415,106 @@ F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0805Y683KXACW1BC?qs=
 F 4 "10%" V 9000 4150 50  0001 C CNN "Accuracy"
 	1    9000 4150
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 3500 9250 3500
+$Comp
+L Device:C_Small C?
+U 1 1 60DBF530
+P 8600 3400
+F 0 "C?" V 8371 3400 50  0000 C CNN
+F 1 "0.01µF" V 8462 3400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8600 3400 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0805Y103JXXPW1BC?qs=9AX3phJxokVo8tzHKFx3bA%3D%3D" H 8600 3400 50  0001 C CNN
+	1    8600 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61B9B965
+P 8600 3850
+F 0 "C?" V 8371 3850 50  0000 C CNN
+F 1 "0.01µF" V 8462 3850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8600 3850 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0805Y103JXXPW1BC?qs=9AX3phJxokVo8tzHKFx3bA%3D%3D" H 8600 3850 50  0001 C CNN
+	1    8600 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61B9C84E
+P 10700 1250
+F 0 "C?" V 10471 1250 50  0000 C CNN
+F 1 "0.1µF" V 10562 1250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10700 1250 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0805Y104JXATW1BC?qs=eqggToSOtyqq4F0F9IzSgw%3D%3D" H 10700 1250 50  0001 C CNN
+	1    10700 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61B9CCDA
+P 10700 1600
+F 0 "C?" V 10471 1600 50  0000 C CNN
+F 1 "0.1µF" V 10562 1600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10700 1600 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0805Y104JXATW1BC?qs=eqggToSOtyqq4F0F9IzSgw%3D%3D" H 10700 1600 50  0001 C CNN
+	1    10700 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61B9D230
+P 10700 1950
+F 0 "C?" V 10471 1950 50  0000 C CNN
+F 1 "0.1µF" V 10562 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10700 1950 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0805Y104JXATW1BC?qs=eqggToSOtyqq4F0F9IzSgw%3D%3D" H 10700 1950 50  0001 C CNN
+	1    10700 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61B9D905
+P 10700 2300
+F 0 "C?" V 10471 2300 50  0000 C CNN
+F 1 "0.1µF" V 10562 2300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10700 2300 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0805Y104JXATW1BC?qs=eqggToSOtyqq4F0F9IzSgw%3D%3D" H 10700 2300 50  0001 C CNN
+	1    10700 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61B9E7DB
+P 9100 1350
+F 0 "C?" H 8950 1400 50  0000 C CNN
+F 1 "0.1µF" H 8900 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9100 1350 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0805Y104JXATW1BC?qs=eqggToSOtyqq4F0F9IzSgw%3D%3D" H 9100 1350 50  0001 C CNN
+	1    9100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61BC9A6C
+P 8650 4600
+F 0 "C?" V 8421 4600 50  0000 C CNN
+F 1 "22pF" V 8512 4600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8650 4600 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0805A220FXQCW1BC?qs=p%252BLVWBR7IxGAMCyQh46EpA%3D%3D" H 8650 4600 50  0001 C CNN
+	1    8650 4600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61BDD90A
+P 8650 5000
+F 0 "C?" V 8421 5000 50  0000 C CNN
+F 1 "22pF" V 8512 5000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8650 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0805A220FXQCW1BC?qs=p%252BLVWBR7IxGAMCyQh46EpA%3D%3D" H 8650 5000 50  0001 C CNN
+	1    8650 5000
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC
