@@ -806,10 +806,10 @@ F 3 "https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMG-C177?qs=YDL0qNrpDT
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Small D5
+L Device:LED_Small D6
 U 1 1 6188D920
 P 4600 4750
-F 0 "D5" H 4600 4543 50  0000 C CNN
+F 0 "D6" H 4600 4543 50  0000 C CNN
 F 1 "LED_Small" H 4600 4634 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" V 4600 4750 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMG-C177?qs=YDL0qNrpDT54K8kRkzcocA%3D%3D" V 4600 4750 50  0001 C CNN
@@ -817,10 +817,10 @@ F 3 "https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMG-C177?qs=YDL0qNrpDT
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Small D6
+L Device:LED_Small D5
 U 1 1 6188DCB0
 P 4600 5050
-F 0 "D6" H 4600 4843 50  0000 C CNN
+F 0 "D5" H 4600 4843 50  0000 C CNN
 F 1 "LED_Small" H 4600 4934 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" V 4600 5050 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMG-C177?qs=YDL0qNrpDT54K8kRkzcocA%3D%3D" V 4600 5050 50  0001 C CNN
@@ -883,10 +883,10 @@ F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0805280RBEEA?qs=sGAEpi
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R5
+L Device:R_Small R6
 U 1 1 6188E590
 P 4950 4750
-F 0 "R5" V 4754 4750 50  0000 C CNN
+F 0 "R6" V 4754 4750 50  0000 C CNN
 F 1 "280Ω" V 4845 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 4750 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0805280RBEEA?qs=sGAEpiMZZMtlubZbdhIBIB0rdhISGYN8mA%2Fr1WejTSI%3D" H 4950 4750 50  0001 C CNN
@@ -894,10 +894,10 @@ F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0805280RBEEA?qs=sGAEpi
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R6
+L Device:R_Small R5
 U 1 1 6188E6C1
 P 4950 5050
-F 0 "R6" V 4754 5050 50  0000 C CNN
+F 0 "R5" V 4754 5050 50  0000 C CNN
 F 1 "280Ω" V 4845 5050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 5050 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0805280RBEEA?qs=sGAEpiMZZMtlubZbdhIBIB0rdhISGYN8mA%2Fr1WejTSI%3D" H 4950 5050 50  0001 C CNN
