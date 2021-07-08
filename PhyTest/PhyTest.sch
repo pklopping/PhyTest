@@ -344,7 +344,7 @@ P 9450 1200
 F 0 "U3" H 9450 1442 50  0000 C CNN
 F 1 "LF33_TO252" H 9450 1351 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 9450 1425 50  0001 C CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf" H 9450 1150 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/511-LF33CDT-TRY" H 9450 1150 50  0001 C CNN
 	1    9450 1200
 	1    0    0    -1  
 $EndComp
@@ -616,7 +616,7 @@ P 3050 3850
 F 0 "U1" H 3000 2600 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 3000 2500 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3050 3850 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3050 3850 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATMEGA32U4-AU?qs=SSucg2PyLi7mKWjHIsNJ3w%3D%3D" H 3050 3850 50  0001 C CNN
 	1    3050 3850
 	1    0    0    -1  
 $EndComp
@@ -1256,7 +1256,7 @@ P 6750 4450
 F 0 "U2" H 6750 5200 50  0000 C CNN
 F 1 "ENC424J600-PT" H 6750 5100 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 7800 3100 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf" H 6800 5250 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/579-ENC424J600-I-PT" H 6800 5250 50  0001 C CNN
 	1    6750 4450
 	1    0    0    -1  
 $EndComp
