@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 1-1734346-1
+D Recept pcb smt r/a USB type B
+K
+F 
+$ENDCMP
+#
+#End Doc Library

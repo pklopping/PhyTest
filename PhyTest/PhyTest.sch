@@ -601,136 +601,6 @@ Wire Wire Line
 	3000 5700 2950 5700
 NoConn ~ 3650 4550
 NoConn ~ 3650 4450
-$Comp
-L Device:R_Small R1
-U 1 1 60E5B3E0
-P 4950 3550
-F 0 "R1" V 4754 3550 50  0000 C CNN
-F 1 "280Ω" V 4845 3550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 3550 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0805280RBEEA?qs=sGAEpiMZZMtlubZbdhIBIB0rdhISGYN8mA%2Fr1WejTSI%3D" H 4950 3550 50  0001 C CNN
-	1    4950 3550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5050 3550 5100 3550
-Wire Wire Line
-	5100 3550 5100 3850
-Wire Wire Line
-	5100 5650 5050 5650
-Wire Wire Line
-	5050 5350 5100 5350
-Connection ~ 5100 5350
-Wire Wire Line
-	5100 5350 5100 5650
-Wire Wire Line
-	5050 5050 5100 5050
-Connection ~ 5100 5050
-Wire Wire Line
-	5100 5050 5100 5350
-Wire Wire Line
-	5050 4750 5100 4750
-Connection ~ 5100 4750
-Wire Wire Line
-	5100 4750 5100 5050
-Wire Wire Line
-	5050 4450 5100 4450
-Connection ~ 5100 4450
-Wire Wire Line
-	5100 4450 5100 4750
-Wire Wire Line
-	5050 4150 5100 4150
-Connection ~ 5100 4150
-Wire Wire Line
-	5100 4150 5100 4450
-Wire Wire Line
-	5050 3850 5100 3850
-Connection ~ 5100 3850
-Wire Wire Line
-	5100 3850 5100 4150
-Wire Wire Line
-	3650 3650 4350 3650
-Wire Wire Line
-	3650 3750 4250 3750
-Wire Wire Line
-	4250 3750 4250 4150
-Wire Wire Line
-	3650 3850 4150 3850
-Wire Wire Line
-	3650 4250 3750 4250
-Wire Wire Line
-	3750 4250 3750 5650
-Wire Wire Line
-	3650 4150 3850 4150
-Wire Wire Line
-	3850 4150 3850 5350
-Wire Wire Line
-	3650 4050 3950 4050
-Wire Wire Line
-	3950 4050 3950 5050
-Wire Wire Line
-	4350 3650 4350 3850
-Wire Wire Line
-	3750 5650 4500 5650
-Wire Wire Line
-	4850 5650 4700 5650
-Wire Wire Line
-	3850 5350 4500 5350
-Wire Wire Line
-	4700 5350 4850 5350
-Wire Wire Line
-	3950 5050 4500 5050
-Wire Wire Line
-	4850 5050 4700 5050
-Wire Wire Line
-	4250 4150 4500 4150
-Wire Wire Line
-	4700 4150 4850 4150
-Wire Wire Line
-	4350 3850 4500 3850
-Wire Wire Line
-	4700 3850 4850 3850
-Wire Wire Line
-	4850 3550 4700 3550
-$Comp
-L Device:LED_Small D1
-U 1 1 60E5854E
-P 4600 3550
-F 0 "D1" H 4600 3343 50  0000 C CNN
-F 1 "LED_Small" H 4600 3434 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 4600 3550 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMG-C177?qs=YDL0qNrpDT54K8kRkzcocA%3D%3D" V 4600 3550 50  0001 C CNN
-	1    4600 3550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4700 4750 4850 4750
-Wire Wire Line
-	4850 4450 4700 4450
-Wire Wire Line
-	4150 3850 4150 4450
-Wire Wire Line
-	4150 4450 4500 4450
-Wire Wire Line
-	3650 3950 4050 3950
-Wire Wire Line
-	4050 3950 4050 4750
-Wire Wire Line
-	4050 4750 4500 4750
-$Comp
-L power:GND #PWR0117
-U 1 1 611FCC33
-P 5100 5700
-F 0 "#PWR0117" H 5100 5450 50  0001 C CNN
-F 1 "GND" H 5105 5527 50  0000 C CNN
-F 2 "" H 5100 5700 50  0001 C CNN
-F 3 "" H 5100 5700 50  0001 C CNN
-	1    5100 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5100 5650 5100 5700
-Connection ~ 5100 5650
 NoConn ~ 3650 3250
 NoConn ~ 3650 3350
 NoConn ~ 3650 4750
@@ -750,8 +620,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    3050 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3650 3550 4500 3550
 Text GLabel 3700 2450 2    50   Input ~ 0
 SCK
 Wire Wire Line
@@ -773,160 +641,6 @@ NoConn ~ 3650 2850
 NoConn ~ 3650 2950
 NoConn ~ 3650 3050
 $Comp
-L Device:LED_Small D2
-U 1 1 6188CB82
-P 4600 3850
-F 0 "D2" H 4600 3643 50  0000 C CNN
-F 1 "LED_Small" H 4600 3734 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 4600 3850 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMG-C177?qs=YDL0qNrpDT54K8kRkzcocA%3D%3D" V 4600 3850 50  0001 C CNN
-	1    4600 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_Small D3
-U 1 1 6188CFBE
-P 4600 4150
-F 0 "D3" H 4600 3943 50  0000 C CNN
-F 1 "LED_Small" H 4600 4034 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 4600 4150 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMG-C177?qs=YDL0qNrpDT54K8kRkzcocA%3D%3D" V 4600 4150 50  0001 C CNN
-	1    4600 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_Small D4
-U 1 1 6188D495
-P 4600 4450
-F 0 "D4" H 4600 4243 50  0000 C CNN
-F 1 "LED_Small" H 4600 4334 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 4600 4450 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMG-C177?qs=YDL0qNrpDT54K8kRkzcocA%3D%3D" V 4600 4450 50  0001 C CNN
-	1    4600 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_Small D6
-U 1 1 6188D920
-P 4600 4750
-F 0 "D6" H 4600 4543 50  0000 C CNN
-F 1 "LED_Small" H 4600 4634 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 4600 4750 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMG-C177?qs=YDL0qNrpDT54K8kRkzcocA%3D%3D" V 4600 4750 50  0001 C CNN
-	1    4600 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_Small D5
-U 1 1 6188DCB0
-P 4600 5050
-F 0 "D5" H 4600 4843 50  0000 C CNN
-F 1 "LED_Small" H 4600 4934 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 4600 5050 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMG-C177?qs=YDL0qNrpDT54K8kRkzcocA%3D%3D" V 4600 5050 50  0001 C CNN
-	1    4600 5050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_Small D7
-U 1 1 6188DE56
-P 4600 5350
-F 0 "D7" H 4600 5143 50  0000 C CNN
-F 1 "LED_Small" H 4600 5234 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 4600 5350 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMG-C177?qs=YDL0qNrpDT54K8kRkzcocA%3D%3D" V 4600 5350 50  0001 C CNN
-	1    4600 5350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_Small D8
-U 1 1 6188DFF7
-P 4600 5650
-F 0 "D8" H 4600 5443 50  0000 C CNN
-F 1 "LED_Small" H 4600 5534 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 4600 5650 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMG-C177?qs=YDL0qNrpDT54K8kRkzcocA%3D%3D" V 4600 5650 50  0001 C CNN
-	1    4600 5650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 6188E1FD
-P 4950 3850
-F 0 "R2" V 4754 3850 50  0000 C CNN
-F 1 "280Ω" V 4845 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 3850 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0805280RBEEA?qs=sGAEpiMZZMtlubZbdhIBIB0rdhISGYN8mA%2Fr1WejTSI%3D" H 4950 3850 50  0001 C CNN
-	1    4950 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R3
-U 1 1 6188E32E
-P 4950 4150
-F 0 "R3" V 4754 4150 50  0000 C CNN
-F 1 "280Ω" V 4845 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 4150 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0805280RBEEA?qs=sGAEpiMZZMtlubZbdhIBIB0rdhISGYN8mA%2Fr1WejTSI%3D" H 4950 4150 50  0001 C CNN
-	1    4950 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R4
-U 1 1 6188E45F
-P 4950 4450
-F 0 "R4" V 4754 4450 50  0000 C CNN
-F 1 "280Ω" V 4845 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 4450 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0805280RBEEA?qs=sGAEpiMZZMtlubZbdhIBIB0rdhISGYN8mA%2Fr1WejTSI%3D" H 4950 4450 50  0001 C CNN
-	1    4950 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R6
-U 1 1 6188E590
-P 4950 4750
-F 0 "R6" V 4754 4750 50  0000 C CNN
-F 1 "280Ω" V 4845 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 4750 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0805280RBEEA?qs=sGAEpiMZZMtlubZbdhIBIB0rdhISGYN8mA%2Fr1WejTSI%3D" H 4950 4750 50  0001 C CNN
-	1    4950 4750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R5
-U 1 1 6188E6C1
-P 4950 5050
-F 0 "R5" V 4754 5050 50  0000 C CNN
-F 1 "280Ω" V 4845 5050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 5050 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0805280RBEEA?qs=sGAEpiMZZMtlubZbdhIBIB0rdhISGYN8mA%2Fr1WejTSI%3D" H 4950 5050 50  0001 C CNN
-	1    4950 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R7
-U 1 1 6188E7F2
-P 4950 5350
-F 0 "R7" V 4754 5350 50  0000 C CNN
-F 1 "280Ω" V 4845 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 5350 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0805280RBEEA?qs=sGAEpiMZZMtlubZbdhIBIB0rdhISGYN8mA%2Fr1WejTSI%3D" H 4950 5350 50  0001 C CNN
-	1    4950 5350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R8
-U 1 1 6188E923
-P 4950 5650
-F 0 "R8" V 4754 5650 50  0000 C CNN
-F 1 "280Ω" V 4845 5650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 5650 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0805280RBEEA?qs=sGAEpiMZZMtlubZbdhIBIB0rdhISGYN8mA%2Fr1WejTSI%3D" H 4950 5650 50  0001 C CNN
-	1    4950 5650
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C_Small C2
 U 1 1 618912A0
 P 1900 2750
@@ -938,10 +652,10 @@ F 3 "https://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0805A220FXQCW1BC?qs=
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R_Small R17
+L Device:R_Small R19
 U 1 1 618B98EF
 P 9750 4400
-F 0 "R17" H 9809 4446 50  0000 L CNN
+F 0 "R19" H 9809 4446 50  0000 L CNN
 F 1 "75Ω" H 9809 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 9750 4400 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW080575R0BEEA?qs=sGAEpiMZZMtlubZbdhIBID8zDJMXfR%2FPvXtu4MVddHo%3D" H 9750 4400 50  0001 C CNN
@@ -949,10 +663,10 @@ F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW080575R0BEEA?qs=sGAEpi
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R18
+L Device:R_Small R17
 U 1 1 618B9BF2
 P 10050 4400
-F 0 "R18" H 10109 4446 50  0000 L CNN
+F 0 "R17" H 10109 4446 50  0000 L CNN
 F 1 "75Ω" H 10109 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 10050 4400 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW080575R0BEEA?qs=sGAEpiMZZMtlubZbdhIBID8zDJMXfR%2FPvXtu4MVddHo%3D" H 10050 4400 50  0001 C CNN
@@ -962,10 +676,10 @@ $EndComp
 Wire Wire Line
 	10350 4200 10350 4300
 $Comp
-L Device:R_Small R19
+L Device:R_Small R18
 U 1 1 618BA81D
 P 10350 4400
-F 0 "R19" H 10409 4446 50  0000 L CNN
+F 0 "R18" H 10409 4446 50  0000 L CNN
 F 1 "75Ω" H 10409 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 10350 4400 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW080575R0BEEA?qs=sGAEpiMZZMtlubZbdhIBID8zDJMXfR%2FPvXtu4MVddHo%3D" H 10350 4400 50  0001 C CNN
@@ -1287,7 +1001,7 @@ L Device:Crystal Y2
 U 1 1 60CFEAA2
 P 8350 4800
 F 0 "Y2" V 8304 4931 50  0000 L CNN
-F 1 "Crystal" V 8395 4931 50  0000 L CNN
+F 1 "25MHz" V 8395 4931 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_HC49-SD" H 8350 4800 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/IQD/LFXTAL032808Reel?qs=GJ%2F2ZGcr5uNxhF%252BFsW%252BcOQ%3D%3D" H 8350 4800 50  0001 C CNN
 	1    8350 4800
@@ -1504,7 +1218,7 @@ U 1 1 61BE096F
 P 800 3350
 F 0 "J1" H 857 3817 50  0000 C CNN
 F 1 "USB_B" H 857 3726 50  0000 C CNN
-F 2 "PhyTest:TE - USB B - 1-1734346-1" H 950 3300 50  0001 C CNN
+F 2 "Samac:1-1734346-1_1" H 950 3300 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/571-1-1734346-1" H 950 3300 50  0001 C CNN
 	1    800  3350
 	1    0    0    -1  
@@ -1558,4 +1272,149 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf" H 6800 5250 50 
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2450 2350
+$Comp
+L Connector_Generic:Conn_01x10 J2
+U 1 1 60F0C792
+P 4300 3850
+F 0 "J2" H 4380 3842 50  0000 L CNN
+F 1 "Conn_01x10" H 4380 3751 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 4300 3850 50  0001 C CNN
+F 3 "~" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3550 4100 3550
+Wire Wire Line
+	3650 3650 4100 3650
+Wire Wire Line
+	3650 3750 4100 3750
+Wire Wire Line
+	3650 3850 4100 3850
+Wire Wire Line
+	3650 4150 4100 4150
+Wire Wire Line
+	4100 4250 3650 4250
+$Comp
+L power:GND #PWR0117
+U 1 1 60F87BDD
+P 3850 4400
+F 0 "#PWR0117" H 3850 4150 50  0001 C CNN
+F 1 "GND" H 3855 4227 50  0000 C CNN
+F 2 "" H 3850 4400 50  0001 C CNN
+F 3 "" H 3850 4400 50  0001 C CNN
+	1    3850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0127
+U 1 1 60F8864B
+P 3850 3400
+F 0 "#PWR0127" H 3850 3250 50  0001 C CNN
+F 1 "+5V" H 3865 3573 50  0000 C CNN
+F 2 "" H 3850 3400 50  0001 C CNN
+F 3 "" H 3850 3400 50  0001 C CNN
+	1    3850 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3400 3850 3450
+Wire Wire Line
+	3850 3450 4100 3450
+Wire Wire Line
+	4100 4350 3850 4350
+Wire Wire Line
+	3850 4350 3850 4400
+Wire Wire Line
+	3650 4050 3700 4050
+Wire Wire Line
+	3700 4050 3700 4000
+Wire Wire Line
+	3700 4000 4050 4000
+Wire Wire Line
+	4050 4000 4050 3950
+Wire Wire Line
+	4050 3950 4100 3950
+Wire Wire Line
+	3650 3950 3900 3950
+Wire Wire Line
+	3900 3950 3900 4050
+Wire Wire Line
+	3900 4050 4100 4050
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 61028D41
+P 2900 6450
+F 0 "H1" H 3000 6499 50  0000 L CNN
+F 1 "MNT" H 3000 6408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2900 6450 50  0001 C CNN
+F 3 "~" H 2900 6450 50  0001 C CNN
+	1    2900 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6102B3FC
+P 3300 6450
+F 0 "H2" H 3400 6499 50  0000 L CNN
+F 1 "MNT" H 3400 6408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3300 6450 50  0001 C CNN
+F 3 "~" H 3300 6450 50  0001 C CNN
+	1    3300 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 6102B930
+P 3650 6450
+F 0 "H3" H 3750 6499 50  0000 L CNN
+F 1 "MNT" H 3750 6408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3650 6450 50  0001 C CNN
+F 3 "~" H 3650 6450 50  0001 C CNN
+	1    3650 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 6102BC41
+P 4000 6450
+F 0 "H4" H 4100 6499 50  0000 L CNN
+F 1 "MNT" H 4100 6408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4000 6450 50  0001 C CNN
+F 3 "~" H 4000 6450 50  0001 C CNN
+	1    4000 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 6550 2900 6600
+Wire Wire Line
+	2900 6600 3300 6600
+Wire Wire Line
+	4000 6600 4000 6550
+Wire Wire Line
+	3650 6550 3650 6600
+Connection ~ 3650 6600
+Wire Wire Line
+	3650 6600 4000 6600
+Wire Wire Line
+	3300 6550 3300 6600
+Connection ~ 3300 6600
+Wire Wire Line
+	3300 6600 3500 6600
+$Comp
+L power:GND #PWR01
+U 1 1 61061313
+P 3500 6650
+F 0 "#PWR01" H 3500 6400 50  0001 C CNN
+F 1 "GND" H 3505 6477 50  0000 C CNN
+F 2 "" H 3500 6650 50  0001 C CNN
+F 3 "" H 3500 6650 50  0001 C CNN
+	1    3500 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6650 3500 6600
+Connection ~ 3500 6600
+Wire Wire Line
+	3500 6600 3650 6600
 $EndSCHEMATC
