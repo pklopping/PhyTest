@@ -996,17 +996,6 @@ Wire Wire Line
 	8350 4600 8350 4650
 Wire Wire Line
 	8550 4600 8350 4600
-$Comp
-L Device:Crystal Y2
-U 1 1 60CFEAA2
-P 8350 4800
-F 0 "Y2" V 8304 4931 50  0000 L CNN
-F 1 "25MHz" V 8395 4931 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD" H 8350 4800 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/IQD/LFXTAL032808Reel?qs=GJ%2F2ZGcr5uNxhF%252BFsW%252BcOQ%3D%3D" H 8350 4800 50  0001 C CNN
-	1    8350 4800
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	7700 5550 7650 5550
 Wire Wire Line
@@ -1325,22 +1314,6 @@ Wire Wire Line
 	4100 4350 3850 4350
 Wire Wire Line
 	3850 4350 3850 4400
-Wire Wire Line
-	3650 4050 3700 4050
-Wire Wire Line
-	3700 4050 3700 4000
-Wire Wire Line
-	3700 4000 4050 4000
-Wire Wire Line
-	4050 4000 4050 3950
-Wire Wire Line
-	4050 3950 4100 3950
-Wire Wire Line
-	3650 3950 3900 3950
-Wire Wire Line
-	3900 3950 3900 4050
-Wire Wire Line
-	3900 4050 4100 4050
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 61028D41
@@ -1417,4 +1390,19 @@ Wire Wire Line
 Connection ~ 3500 6600
 Wire Wire Line
 	3500 6600 3650 6600
+$Comp
+L Device:Crystal Y2
+U 1 1 60CFEAA2
+P 8350 4800
+F 0 "Y2" V 8304 4931 50  0000 L CNN
+F 1 "25MHz" V 8395 4931 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD" H 8350 4800 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/IQD/LFXTAL032808Reel?qs=GJ%2F2ZGcr5uNxhF%252BFsW%252BcOQ%3D%3D" H 8350 4800 50  0001 C CNN
+	1    8350 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 3950 4100 3950
+Wire Wire Line
+	3650 4050 4100 4050
 $EndSCHEMATC
