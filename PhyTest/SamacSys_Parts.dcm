@@ -12,4 +12,10 @@ K
 F 
 $ENDCMP
 #
+$CMP 5-2337992-3
+D RJ45 JACK MAG. POE 10/100 LED 1X1 INV.-5-2337992-3      Industrial RJ45 IP20 , Industrial RJ45 Mag Jack
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F5-2337992-3%7FA%7Fpdf%7FEnglish%7FENG_CD_5-2337992-3_A.pdf%7F5-2337992-3
+$ENDCMP
+#
 #End Doc Library
