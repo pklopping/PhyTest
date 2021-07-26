@@ -495,10 +495,6 @@ F 3 "" H 2400 3950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2400 3950 2400 3900
-Wire Wire Line
-	1100 3350 2450 3350
-Wire Wire Line
-	1100 3450 2450 3450
 $Comp
 L power:+5V #PWR0114
 U 1 1 61006CCD
@@ -609,17 +605,6 @@ NoConn ~ 3650 4950
 NoConn ~ 3650 5050
 NoConn ~ 3650 5150
 NoConn ~ 3650 5250
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 60FC816C
-P 3050 3850
-F 0 "U1" H 3000 2600 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 3000 2500 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3050 3850 50  0001 C CIN
-F 3 "https://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATMEGA32U4-AU?qs=SSucg2PyLi7mKWjHIsNJ3w%3D%3D" H 3050 3850 50  0001 C CNN
-	1    3050 3850
-	1    0    0    -1  
-$EndComp
 Text GLabel 3700 2450 2    50   Input ~ 0
 SCK
 Wire Wire Line
@@ -1260,7 +1245,6 @@ F 3 "https://www.mouser.com/ProductDetail/579-ENC424J600-I-PT" H 6800 5250 50  0
 	1    6750 4450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2450 2350
 $Comp
 L Connector_Generic:Conn_01x10 J2
 U 1 1 60F0C792
@@ -1405,4 +1389,144 @@ Wire Wire Line
 	3650 3950 4100 3950
 Wire Wire Line
 	3650 4050 4100 4050
+$Comp
+L Device:R_Small R?
+U 1 1 60F76457
+P 1650 3350
+F 0 "R?" V 1454 3350 50  0000 C CNN
+F 1 "22Ω" V 1545 3350 50  0000 C CNN
+F 2 "" H 1650 3350 50  0001 C CNN
+F 3 "~" H 1650 3350 50  0001 C CNN
+	1    1650 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 3350 1550 3350
+$Comp
+L Device:R_Small R?
+U 1 1 60F77740
+P 1650 3650
+F 0 "R?" V 1846 3650 50  0000 C CNN
+F 1 "22Ω" V 1755 3650 50  0000 C CNN
+F 2 "" H 1650 3650 50  0001 C CNN
+F 3 "~" H 1650 3650 50  0001 C CNN
+	1    1650 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 3450 1500 3450
+Wire Wire Line
+	1500 3450 1500 3650
+Wire Wire Line
+	1500 3650 1550 3650
+Wire Wire Line
+	1750 3650 1800 3650
+Wire Wire Line
+	1800 3650 1800 3450
+Wire Wire Line
+	1800 3450 2450 3450
+Wire Wire Line
+	2450 3350 1750 3350
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 60FF7AEA
+P 5550 1450
+F 0 "J?" H 5522 1424 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 5522 1333 50  0000 R CNN
+F 2 "" H 5550 1450 50  0001 C CNN
+F 3 "~" H 5550 1450 50  0001 C CNN
+	1    5550 1450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6100F216
+P 5300 1850
+F 0 "#PWR?" H 5300 1600 50  0001 C CNN
+F 1 "GND" H 5305 1677 50  0000 C CNN
+F 2 "" H 5300 1850 50  0001 C CNN
+F 3 "" H 5300 1850 50  0001 C CNN
+	1    5300 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1850 5300 1750
+Wire Wire Line
+	5300 1750 5350 1750
+Wire Wire Line
+	5350 1450 5300 1450
+Text GLabel 5300 1450 0    50   Input ~ 0
+SCK
+Text GLabel 5300 1250 0    50   Input ~ 0
+MISO
+$Comp
+L power:+5V #PWR?
+U 1 1 610851F6
+P 4850 1300
+F 0 "#PWR?" H 4850 1150 50  0001 C CNN
+F 1 "+5V" H 4865 1473 50  0000 C CNN
+F 2 "" H 4850 1300 50  0001 C CNN
+F 3 "" H 4850 1300 50  0001 C CNN
+	1    4850 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1300 4850 1350
+Wire Wire Line
+	4850 1350 5350 1350
+Text GLabel 5300 1550 0    50   Input ~ 0
+MOSI
+Wire Wire Line
+	5350 1550 5300 1550
+Text GLabel 5300 1650 0    50   Input ~ 0
+RST
+Wire Wire Line
+	5300 1650 5350 1650
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 60FC816C
+P 3050 3850
+F 0 "U1" H 3000 2600 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 3000 2500 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3050 3850 50  0001 C CIN
+F 3 "https://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATMEGA32U4-AU?qs=SSucg2PyLi7mKWjHIsNJ3w%3D%3D" H 3050 3850 50  0001 C CNN
+	1    3050 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 2350 0    50   Input ~ 0
+RST
+Wire Wire Line
+	2400 2350 2450 2350
+Wire Wire Line
+	6900 1100 6900 1150
+Wire Wire Line
+	6850 1100 6900 1100
+Wire Wire Line
+	6400 1100 6450 1100
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 611062C7
+P 6650 1100
+F 0 "SW?" H 6650 1335 50  0000 C CNN
+F 1 "SW_SPST" H 6650 1244 50  0000 C CNN
+F 2 "" H 6650 1100 50  0001 C CNN
+F 3 "~" H 6650 1100 50  0001 C CNN
+	1    6650 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 1100 0    50   Input ~ 0
+RST
+$Comp
+L power:GND #PWR?
+U 1 1 61104D58
+P 6900 1150
+F 0 "#PWR?" H 6900 900 50  0001 C CNN
+F 1 "GND" H 6905 977 50  0000 C CNN
+F 2 "" H 6900 1150 50  0001 C CNN
+F 3 "" H 6900 1150 50  0001 C CNN
+	1    6900 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1250 5350 1250
 $EndSCHEMATC
