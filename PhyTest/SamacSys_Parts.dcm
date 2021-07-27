@@ -18,4 +18,22 @@ K
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F5-2337992-3%7FA%7Fpdf%7FEnglish%7FENG_CD_5-2337992-3_A.pdf%7F5-2337992-3
 $ENDCMP
 #
+$CMP SKTHACE010
+D Tactile Switches H 1.8mm, 1.4N
+K
+F https://www.mouser.co.uk/datasheet/2/15/Alps_06072019_SKTHACE010-1601564.pdf
+$ENDCMP
+#
+$CMP SKRPANE010
+D Tactile Switches 500mOhm 1.57N 16VDC 4.2X3.2X2.5MM 50mA
+K
+F https://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPANE010.html
+$ENDCMP
+#
+$CMP MAL219299601E3
+D Aluminum Electrolytic Capacitors SMD (Chip), High Voltage
+K
+F https://www.vishay.com/docs/28463/192ctx.pdf
+$ENDCMP
+#
 #End Doc Library
